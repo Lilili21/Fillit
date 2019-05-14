@@ -12,6 +12,14 @@
 
 #include "fillit.h"
 
+void		ft_putstr_exit(const char *s)
+{
+	if (!s)
+		return ;
+	write(1, s, ft_strlen(s));
+	exit(1);
+}
+
 static char	*ft_fill_map(char *map, int field_n, int field)
 {
 	int		i;

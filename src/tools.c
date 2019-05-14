@@ -40,7 +40,8 @@ void	ft_check_spaces(char *buffer)
 void	ft_check_spaces_last(char *buffer)
 {
 	if (buffer[4] == '\n' && buffer[9] == '\n' \
-		&& buffer[14] == '\n' && buffer[19] == '\n')
+		&& buffer[14] == '\n' && buffer[19] == '\n' \
+		&& buffer[20] == '\0')
 		return ;
 	ft_error();
 }

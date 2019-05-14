@@ -116,9 +116,11 @@ int			ft_open_and_validation(char *arg, t_dlist **val_list)
 	int		fd;
 	int		ret;
 	int		step;
+	int		count;
 	char	buffer[23];
 
 	step = 0;
+	count = 0;
 	fd = open(arg, O_RDONLY);
 	if (fd < 0)
 		ft_error();
@@ -127,8 +129,9 @@ int			ft_open_and_validation(char *arg, t_dlist **val_list)
 		buffer[21] = '\0';
 		ft_addnode_dlist(val_list, buffer, 'A' + step);
 		step++;
+		count++;
 	}
-	if (ret < 0)
+	if (ret < 0 || (ret == 0 && count == 0))
 		ft_error();
 	ft_dlisthead_del(val_list);
 	return (ft_main_validation(*val_list));
