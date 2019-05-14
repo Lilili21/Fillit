@@ -6,22 +6,46 @@
 /*   By: gfoote <gfoote@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/25 16:55:19 by swarner           #+#    #+#             */
-/*   Updated: 2019/05/08 19:09:57 by gfoote           ###   ########.fr       */
+/*   Updated: 2019/05/11 15:03:55 by gfoote           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/fillit.h"
+#include "fillit.h"
+
+static int ft_sqrt2(int i)
+{
+	int t;
+
+	t = 1;
+	if (i != 0)
+	{
+		while (t*t < i)
+			t++;
+	}
+	return (t - 1);
+}
 
 int		main(int argc, char **argv)
 {
+	int		i;
+	int		step;
 	int		valid_tetri;
-	t_tetris	*val_list;
+	char	*tetri_map;
+	t_dlist	*val_list;
 
 	if (argc == 2)
 	{
-		val_list = ft_tetnew(NULL, 0);
-		valid_tetri = ft_open_and_validation(argv[1], val_list);
-		ft_putstr(ft_field_for_tetri(valid_tetri, 0));
+		i = 0;
+		step = 0;
+		val_list = ft_dlist_new(NULL, 0);
+		valid_tetri = ft_open_and_validation(argv[1], &val_list);
+		tetri_map = ft_field_for_tetri(valid_tetri, i, val_list);
+		while (ft_solve(val_list, tetri_map, step) == 0)
+        {
+			i = ft_sqrt2(ft_strlen(tetri_map)) + 1;
+		    free(tetri_map);
+			tetri_map = ft_field_for_tetri(valid_tetri, i, val_list);
+        }
 	}
 	else
 		ft_putendl("usage: ./fillit [file]");

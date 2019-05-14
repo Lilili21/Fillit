@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="fillit_result2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/gfoote/Project42/fillit_result2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/gfoote/Project42/fillit_result2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/gfoote/Project42/fillit_result2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fillit_result2">
+				<Option output="/Users/gfoote/Project42/fillit_result2/cmake-build-debug/fillit_result2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gfoote/Project42/fillit_result2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gfoote/Project42/fillit_result2/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 fillit_result2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fillit_result2/fast">
+				<Option output="/Users/gfoote/Project42/fillit_result2/cmake-build-debug/fillit_result2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gfoote/Project42/fillit_result2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gfoote/Project42/fillit_result2/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 fillit_result2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gfoote/Project42/fillit_result2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/includes/fillit.h">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/includes/libft.h">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_addnode.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_addnode_dlist.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_atoi.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_bzero.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_dlist_new.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_dlistadd_end.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_dlisthead_del.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_isalnum.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_isalpha.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_isascii.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_isdigit.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_isprint.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_itoa.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_lstadd.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_lstadd_end.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_lstdel.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_lstdelone.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_lsthead_del.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_lstiter.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_lstmap.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_lstnew.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_memalloc.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_memccpy.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_memchr.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_memcmp.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_memcpy.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_memdel.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_memmove.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_memset.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_putchar.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_putchar_fd.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_putendl.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_putendl_fd.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_putnbr.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_putnbr_fd.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_putstr.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_putstr_fd.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_rejoin.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strcat.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strchr.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strclr.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strcmp.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strcpy.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strdel.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strdup.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strequ.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_striter.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_striteri.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strjoin.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strjoin_free.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strlcat.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strlen.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strmap.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strmapi.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strncat.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strncmp.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strncpy.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strnequ.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strnew.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strnstr.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strrchr.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strsplit.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strstr.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strsub.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_strtrim.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_tolower.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/ft_toupper.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/lib/get_next_line.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/src/logic.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/src/logic_tools.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/src/main.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/src/tools.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/src/validation.c">
+			<Option target="fillit_result2"/>
+		</Unit>
+		<Unit filename="/Users/gfoote/Project42/fillit_result2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

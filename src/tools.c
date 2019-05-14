@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   tools.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gfoote <gfoote@student.42.fr>              +#+  +:+       +#+        */
+/*   By: swarner <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/01 18:04:14 by swarner           #+#    #+#             */
-/*   Updated: 2019/05/08 17:21:28 by gfoote           ###   ########.fr       */
+/*   Updated: 2019/05/01 18:04:21 by swarner          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/fillit.h"
+#include "fillit.h"
 
 void	ft_error(void)
 {
@@ -25,9 +25,7 @@ int		ft_sqrt(int nb)
 	digit = 1;
 	while (digit * digit < nb)
 		digit++;
-	if (digit * digit == nb)
-		return (digit);
-	return (0);
+    return digit * digit == nb ? digit : 0;
 }
 
 void	ft_check_spaces(char *buffer)
