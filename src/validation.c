@@ -6,7 +6,7 @@
 /*   By: swarner <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/21 21:57:14 by swarner           #+#    #+#             */
-/*   Updated: 2019/04/21 21:57:16 by swarner          ###   ########.fr       */
+/*   Updated: 2019/05/14 15:46:26 by gfoote           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,27 +33,26 @@ static void	ft_move(int *coo)
 
 int			*ft_tetri_to_coo(char *buffer)
 {
-	int		i;
-	int		g;
+	int		i[2];
 	int		level;
 	int		*coo;
 	int		step;
 
-	i = -1;
+	i[0] = -1;
+	i[1] = 0;
 	level = 0;
 	step = 0;
-	g = 0;
 	coo = (int *)malloc(4 * sizeof(int));
-	while (buffer[++i] != '\0' && g != 4)
+	while (buffer[++i[0]] != '\0' && i[1] != 4)
 	{
-		if (buffer[i] == '#')
+		if (buffer[i[0]] == '#')
 		{
-			if (g == 0)
-				coo[g++] = i % 5;
+			if (i[1] == 0)
+				coo[i[1]++] = i[0] % 5;
 			else
-				coo[g++] = (i / 5 > level) ? i % 5 + 5 * (++step)
-						: i % 5 + 5 * step;
-			level = i / 5;
+				coo[i[1]++] = (i[0] / 5 > level) ? i[0] % 5 + 5 * (++step)
+						: i[0] % 5 + 5 * step;
+			level = i[0] / 5;
 		}
 	}
 	ft_move(coo);
@@ -61,7 +60,7 @@ int			*ft_tetri_to_coo(char *buffer)
 	return (coo);
 }
 
-void	ft_check_tetri(char *buffer)
+void		ft_check_tetri(char *buffer)
 {
 	int		i;
 	int		shapes;
@@ -88,7 +87,7 @@ void	ft_check_tetri(char *buffer)
 	ft_error();
 }
 
-int		ft_main_validation(t_dlist *val_list)
+int			ft_main_validation(t_dlist *val_list)
 {
 	int		count;
 	t_dlist	*current;
@@ -112,7 +111,7 @@ int		ft_main_validation(t_dlist *val_list)
 	return (count);
 }
 
-int		ft_open_and_validation(char *arg, t_dlist **val_list)
+int			ft_open_and_validation(char *arg, t_dlist **val_list)
 {
 	int		fd;
 	int		ret;

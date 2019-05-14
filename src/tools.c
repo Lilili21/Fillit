@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   tools.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: swarner <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: gfoote <gfoote@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/01 18:04:14 by swarner           #+#    #+#             */
-/*   Updated: 2019/05/01 18:04:21 by swarner          ###   ########.fr       */
+/*   Updated: 2019/05/14 15:48:45 by gfoote           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_error(void)
 {
-	ft_putendl("Error");
+	ft_putendl("error");
 	exit(1);
 }
 
@@ -25,7 +25,7 @@ int		ft_sqrt(int nb)
 	digit = 1;
 	while (digit * digit < nb)
 		digit++;
-    return digit * digit == nb ? digit : 0;
+	return (digit);
 }
 
 void	ft_check_spaces(char *buffer)
