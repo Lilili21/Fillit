@@ -12,7 +12,7 @@
 
 NAME = fillit
 LIB_NAME = libft.a
-FLAGS = -Wall -Wextra -Werror -c -g -O0
+FLAGS = -Wall -Wextra -Werror -c -g
 HEADERS = ./includes
 SRC = logic_tools.c main.c validation.c tools.c logic.c
 SRCDIR = src
@@ -49,9 +49,6 @@ $(NAME):
 	@ranlib $(LIB_NAME)
 	@gcc $(FLAGS) -I $(HEADERS) $(SRCS)
 	@gcc $(OBJ) -L. -lft -o $(NAME)
-
-leak_check: re
-	@valgrind --leak-check=full ./$(NAME) 1.txt
 
 clean:
 	@/bin/rm -f $(OBJ) 
