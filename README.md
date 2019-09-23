@@ -1,5 +1,5 @@
 # Fillit
-Fillit is my project for School 21/42
+Fillit is a team project for School 21/42
 
 Description: this is an analogue of the tetris game. You should read the card with tetrimino and arrange them so as to create the smallest square possible. The map begins to fill from the upper left corner.
 
